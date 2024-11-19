@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_text">Service dijalankan...</string>
+    <string name="info_text">Not yet implemented</string>
+    <string name="service_dihentikan">Service dihentikan</string>
+    <string name="ondestroy_service_dihentikan">onDestroy: Service dihentikan</string>
+</resources>
