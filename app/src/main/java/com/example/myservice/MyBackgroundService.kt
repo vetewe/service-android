@@ -1,5 +1,6 @@
 package com.example.myservice
 
+import android.annotation.SuppressLint
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
@@ -23,12 +24,13 @@ class MyBackgroundService : Service() {
         throw UnsupportedOperationException(getString(R.string.info_text))
     }
 
+    @SuppressLint("StringFormatMatches")
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
         Log.d(TAG, getString(R.string.log_text))
         serviceScope.launch {
             for (i in 1..50) {
                 delay(1000)
-                Log.d(TAG, "Do Something $i")
+                Log.d(TAG, getString(R.string.do_something, i))
             }
             stopSelf()
             Log.d(TAG, getString(R.string.service_dihentikan))
