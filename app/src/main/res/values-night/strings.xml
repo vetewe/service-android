@@ -5,4 +5,7 @@
     <string name="service_dihentikan">Service dihentikan</string>
     <string name="ondestroy_service_dihentikan">onDestroy: Service dihentikan</string>
     <string name="do_something">Do Something %1$s</string>
+    <string name="toast_text">Unable to display Foreground service notification due to permission decline</string>
+    <string name="foreground_service">Foreground Service</string>
+    <string name="saat_ini_foreground_service_sedang_berjalan">Saat ini foreground service sedang berjalan.</string>
 </resources>
