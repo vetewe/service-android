@@ -14,4 +14,8 @@
     <string name="toast_text">Unable to display Foreground service notification due to permission decline</string>
     <string name="foreground_service">Foreground Service</string>
     <string name="saat_ini_foreground_service_sedang_berjalan">Saat ini foreground service sedang berjalan.</string>
+    <string name="onbind">"onBind: "</string>
+    <string name="ondestroy">"onDestroy: "</string>
+    <string name="onunbind">"onUnbind: "</string>
+    <string name="onrebind">"onRebind: "</string>
 </resources>
